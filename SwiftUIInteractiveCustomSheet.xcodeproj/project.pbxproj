@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		959B9ED0235ED4E200171DD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B9ECF235ED4E200171DD8 /* AppDelegate.swift */; };
 		959B9ED2235ED4E200171DD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B9ED1235ED4E200171DD8 /* SceneDelegate.swift */; };
-		959B9ED4235ED4E200171DD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B9ED3235ED4E200171DD8 /* ContentView.swift */; };
+		959B9ED4235ED4E200171DD8 /* WikiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B9ED3235ED4E200171DD8 /* WikiApp.swift */; };
 		959B9ED6235ED4E300171DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959B9ED5235ED4E300171DD8 /* Assets.xcassets */; };
 		959B9ED9235ED4E300171DD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959B9ED8235ED4E300171DD8 /* Preview Assets.xcassets */; };
 		959B9EDC235ED4E300171DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959B9EDA235ED4E300171DD8 /* LaunchScreen.storyboard */; };
+		959B9EE5235ED5A400171DD8 /* WikiCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B9EE4235ED5A400171DD8 /* WikiCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		959B9ECC235ED4E200171DD8 /* SwiftUIInteractiveCustomSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIInteractiveCustomSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		959B9ECF235ED4E200171DD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		959B9ED1235ED4E200171DD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		959B9ED3235ED4E200171DD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		959B9ED3235ED4E200171DD8 /* WikiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiApp.swift; sourceTree = "<group>"; };
 		959B9ED5235ED4E300171DD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		959B9ED8235ED4E300171DD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		959B9EDB235ED4E300171DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		959B9EDD235ED4E300171DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		959B9EE4235ED5A400171DD8 /* WikiCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,10 @@
 		959B9ECE235ED4E200171DD8 /* SwiftUIInteractiveCustomSheet */ = {
 			isa = PBXGroup;
 			children = (
+				959B9EE3235ED59500171DD8 /* Card */,
 				959B9ECF235ED4E200171DD8 /* AppDelegate.swift */,
 				959B9ED1235ED4E200171DD8 /* SceneDelegate.swift */,
-				959B9ED3235ED4E200171DD8 /* ContentView.swift */,
+				959B9ED3235ED4E200171DD8 /* WikiApp.swift */,
 				959B9ED5235ED4E300171DD8 /* Assets.xcassets */,
 				959B9EDA235ED4E300171DD8 /* LaunchScreen.storyboard */,
 				959B9EDD235ED4E300171DD8 /* Info.plist */,
@@ -73,6 +76,14 @@
 				959B9ED8235ED4E300171DD8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		959B9EE3235ED59500171DD8 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				959B9EE4235ED5A400171DD8 /* WikiCard.swift */,
+			);
+			path = Card;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +159,8 @@
 			files = (
 				959B9ED0235ED4E200171DD8 /* AppDelegate.swift in Sources */,
 				959B9ED2235ED4E200171DD8 /* SceneDelegate.swift in Sources */,
-				959B9ED4235ED4E200171DD8 /* ContentView.swift in Sources */,
+				959B9ED4235ED4E200171DD8 /* WikiApp.swift in Sources */,
+				959B9EE5235ED5A400171DD8 /* WikiCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
