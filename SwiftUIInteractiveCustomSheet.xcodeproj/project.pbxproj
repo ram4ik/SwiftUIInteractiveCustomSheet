@@ -14,6 +14,14 @@
 		959B9ED9235ED4E300171DD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959B9ED8235ED4E300171DD8 /* Preview Assets.xcassets */; };
 		959B9EDC235ED4E300171DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959B9EDA235ED4E300171DD8 /* LaunchScreen.storyboard */; };
 		959B9EE5235ED5A400171DD8 /* WikiCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B9EE4235ED5A400171DD8 /* WikiCard.swift */; };
+		959B9EE8235ED9A800171DD8 /* NavIconStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B9EE7235ED9A800171DD8 /* NavIconStyle.swift */; };
+		959B9EEB235EDA6300171DD8 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B9EEA235EDA6300171DD8 /* SheetView.swift */; };
+		959B9EED235EDAFF00171DD8 /* CustomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B9EEC235EDAFF00171DD8 /* CustomSheetView.swift */; };
+		959B9EEF235EDB6100171DD8 /* CreateNewWikiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B9EEE235EDB6100171DD8 /* CreateNewWikiView.swift */; };
+		959B9EF1235EDB8E00171DD8 /* WikiButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B9EF0235EDB8E00171DD8 /* WikiButton.swift */; };
+		959B9EF3235EDCC900171DD8 /* ToolbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B9EF2235EDCC900171DD8 /* ToolbarButton.swift */; };
+		959B9EF5235EDCEF00171DD8 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B9EF4235EDCEF00171DD8 /* ToolbarView.swift */; };
+		959B9EF8235EDE8400171DD8 /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B9EF7235EDE8400171DD8 /* RoundedShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,14 @@
 		959B9EDB235ED4E300171DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		959B9EDD235ED4E300171DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		959B9EE4235ED5A400171DD8 /* WikiCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiCard.swift; sourceTree = "<group>"; };
+		959B9EE7235ED9A800171DD8 /* NavIconStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavIconStyle.swift; sourceTree = "<group>"; };
+		959B9EEA235EDA6300171DD8 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		959B9EEC235EDAFF00171DD8 /* CustomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSheetView.swift; sourceTree = "<group>"; };
+		959B9EEE235EDB6100171DD8 /* CreateNewWikiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewWikiView.swift; sourceTree = "<group>"; };
+		959B9EF0235EDB8E00171DD8 /* WikiButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiButton.swift; sourceTree = "<group>"; };
+		959B9EF2235EDCC900171DD8 /* ToolbarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarButton.swift; sourceTree = "<group>"; };
+		959B9EF4235EDCEF00171DD8 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
+		959B9EF7235EDE8400171DD8 /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,9 @@
 		959B9ECE235ED4E200171DD8 /* SwiftUIInteractiveCustomSheet */ = {
 			isa = PBXGroup;
 			children = (
+				959B9EF6235EDE7200171DD8 /* Shapes */,
+				959B9EE9235EDA4A00171DD8 /* Views */,
+				959B9EE6235ED98F00171DD8 /* Modifiers */,
 				959B9EE3235ED59500171DD8 /* Card */,
 				959B9ECF235ED4E200171DD8 /* AppDelegate.swift */,
 				959B9ED1235ED4E200171DD8 /* SceneDelegate.swift */,
@@ -84,6 +103,35 @@
 				959B9EE4235ED5A400171DD8 /* WikiCard.swift */,
 			);
 			path = Card;
+			sourceTree = "<group>";
+		};
+		959B9EE6235ED98F00171DD8 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				959B9EE7235ED9A800171DD8 /* NavIconStyle.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		959B9EE9235EDA4A00171DD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				959B9EEA235EDA6300171DD8 /* SheetView.swift */,
+				959B9EEC235EDAFF00171DD8 /* CustomSheetView.swift */,
+				959B9EEE235EDB6100171DD8 /* CreateNewWikiView.swift */,
+				959B9EF0235EDB8E00171DD8 /* WikiButton.swift */,
+				959B9EF2235EDCC900171DD8 /* ToolbarButton.swift */,
+				959B9EF4235EDCEF00171DD8 /* ToolbarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		959B9EF6235EDE7200171DD8 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				959B9EF7235EDE8400171DD8 /* RoundedShape.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,10 +205,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				959B9EF5235EDCEF00171DD8 /* ToolbarView.swift in Sources */,
 				959B9ED0235ED4E200171DD8 /* AppDelegate.swift in Sources */,
+				959B9EF3235EDCC900171DD8 /* ToolbarButton.swift in Sources */,
 				959B9ED2235ED4E200171DD8 /* SceneDelegate.swift in Sources */,
+				959B9EE8235ED9A800171DD8 /* NavIconStyle.swift in Sources */,
 				959B9ED4235ED4E200171DD8 /* WikiApp.swift in Sources */,
+				959B9EEB235EDA6300171DD8 /* SheetView.swift in Sources */,
 				959B9EE5235ED5A400171DD8 /* WikiCard.swift in Sources */,
+				959B9EED235EDAFF00171DD8 /* CustomSheetView.swift in Sources */,
+				959B9EF1235EDB8E00171DD8 /* WikiButton.swift in Sources */,
+				959B9EEF235EDB6100171DD8 /* CreateNewWikiView.swift in Sources */,
+				959B9EF8235EDE8400171DD8 /* RoundedShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
